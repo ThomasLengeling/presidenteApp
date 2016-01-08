@@ -9,9 +9,6 @@ void ofApp::setup(){
 
 	balls.assign(10, Ball());
 
-	arrow.load("arrow.png");
-	arrow.setAnchorPercent(1.0, 0.5);
-
 	// initialize all of the Ball particles
 	for(int i=0; i<balls.size(); i++){
 		balls[i].init(i);

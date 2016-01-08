@@ -22,7 +22,6 @@ class ofApp : public ofBaseApp{
 
 		void gotMessage(ofMessage msg);
 
-		ofImage arrow;
 
 		vector<Ball> balls;
 
